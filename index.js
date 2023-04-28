@@ -1,5 +1,5 @@
 function encriptar(){
-    let texto = document.getElementById("texto").value;
+    let texto = document.getElementById("texto").value.toLowerCase();
     let tituloMensaje = document.getElementById("titulo-mensaje");
     let parrafo = document.getElementById("parrafo");
     let muñeco = document.getElementById("muñeco");

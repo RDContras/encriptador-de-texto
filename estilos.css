@@ -16,17 +16,23 @@
     height: 60%;
     left: 12%;
     top: 15%;
+    text-align:center;
     border: none;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    background-color: #f3f5fc;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    resize: none;
 }
 
 .texto::placeholder{
-   color: #0a3871;   
+   color: #0a3871; 
+   text-align: center;  
 }
 
 .texto:focus,
